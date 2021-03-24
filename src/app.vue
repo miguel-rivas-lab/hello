@@ -57,15 +57,15 @@
 
 <script lang="ts">
  import Vue from "vue";
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
 
   export default Vue.extend({
     computed: {
       getCity(){
-        return window.location.pathname.substring(1);
+        return urlParams.get('city');
       },
       getName(){
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
         return urlParams.get('name');
       }
     }
