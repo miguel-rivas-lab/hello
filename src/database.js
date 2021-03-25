@@ -9,12 +9,16 @@ export const user = {
   website: 'https://miguel-rivas.github.io',
 };
 
+const today = new Date();
+
 export const fullName = `${user.name} ${user.lastName}`;
 
 export const letter = [
-  `I am <strong>${fullName}</strong> a ${user.position} living in ${user.location}. I'm looking forward to join your team. I've been working for a while developing websites for top brands as Cerveza Presidente.`,
-  `It has been a really good journey but right now i'll like to expand my knowledge and explore the best practices around the world.`,
-  `I've been working with tools like Github, Jade/Haml, Sass/Less And PHP/Ruby. I hope my portfolio can get your attention.`,
+  `I am <strong>${fullName}</strong> a ${user.position} living in ${user.location} and I see you are looking for someone with my skill set to join your team and I would like to apply for the position.`,
+  `I have 4 years in Dominican Republic working with <strong>Capital DBG</strong> (one of the most prestigious agency in Santo Domingo) and <strong>Pixel Perfect Tree</strong> building landing pages, animations and single page apps.`,
+  `I have other ${today.getFullYear() - 2017} years working in the United States with clients like the Government of Maryland using <strong>Ruby on Rails</strong> and <strong>Vue</strong> as the main frameworks meeting <strong>508 compliance</strong>.`,
+  `You can see some of my projects at <a href="https://miguel-rivas.github.io/">miguel-rivas.github.io</a>`,
+  `Please do not hesitate to send me an email and ask me questions for any reason. looking forward to hearing from you. <strong>:)</strong>`,
 ];
 
 const tool = {

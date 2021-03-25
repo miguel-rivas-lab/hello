@@ -20,8 +20,24 @@ section.letter {
 		}
 
 		strong {
-			color: #003bc1;
+			color: #006b1c;
 			font-style: normal;
+		}
+
+		a {
+			color: #003bc1;
+			text-decoration: none;
+			font-weight: 700;
+			padding: 2px 6px;
+			border-radius: 7px;
+			padding: 2px 6px;
+			border-radius: 7px;
+			background-color: #dee6f9;
+
+			&:hover {
+				background-color: #003bc1;
+				color: #fff;
+			}
 		}
 	}
 }

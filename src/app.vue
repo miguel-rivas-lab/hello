@@ -13,7 +13,6 @@
         <template v-for="(paragraph, index) in letter">
           <p :key="index" v-html="paragraph"/>
         </template>
-        <p>Looking forward to hearing from you. <strong>:)</strong></p>
       </div>
     </section>
     <section class="projects">

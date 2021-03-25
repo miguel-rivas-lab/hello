@@ -7,15 +7,6 @@ footer {
 		padding: 120px 0 20px;
 	}
 
-	h2 {
-		text-transform: capitalize;
-		font-size: 28pt;
-
-		@media (max-width: 500px) {
-			font-size: 20pt;
-		}
-	}
-
 	a {
 		color: #D9E021;
 		text-decoration: none;

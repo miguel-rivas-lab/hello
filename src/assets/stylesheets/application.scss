@@ -47,14 +47,11 @@ footer {
   }
 
   .city {
-    width: 120%;
-    position: absolute;
     bottom: -230px;
     left: -10%;
-    z-index: 1;
     height: 890px;
     background: url(../img/melbourne.png) no-repeat bottom center;
-    background-size: contain;
+
 
     @media (max-width: 500px) {
       bottom: -100px;
@@ -76,14 +73,11 @@ footer {
   }
 
   .city {
-    width: 120%;
-    position: absolute;
     bottom: -230px;
     left: -10%;
-    z-index: 1;
     height: 1300px;
     background: url(../img/texas.png) no-repeat bottom left;
-    background-size: contain;
+
   
     @media (max-width: 500px) {
       bottom: -100px;
@@ -104,14 +98,11 @@ footer {
     }
   }
   .city {
-    width: 120%;
-    position: absolute;
     bottom: -230px;
     left: -10%;
-    z-index: 1;
     height: 1300px;
     background: url(../img/neuschwanstein.png) no-repeat bottom left;
-    background-size: contain;
+
   
     @media (max-width: 500px) {
       bottom: -100px;
@@ -133,14 +124,11 @@ footer {
   }
 
   .city {
-    width: 120%;
-    position: absolute;
     bottom: 0;
     left: -10%;
-    z-index: 1;
     height: 1500px;
     background: url(../img/dusseldorf.png) no-repeat bottom center;
-    background-size: contain;
+
   }
 
   footer {
