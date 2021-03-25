@@ -19,26 +19,9 @@ section.letter {
 			text-transform: uppercase;
 		}
 
-		em {
-			color: #00c76f;
+		strong {
+			color: #003bc1;
 			font-style: normal;
-		}
-
-		&:before, &:after {
-			color: rgba(217, 224, 33, 0.78);
-			font-size: 363pt;
-			position: absolute;
-			top: -130px;
-			transition: all 500ms ease;
-		}
-		&:before {
-			content: "[";
-			left: -155px;
-		}
-
-		&:after {
-			content: "]";
-			right: -155px;
 		}
 	}
 }
